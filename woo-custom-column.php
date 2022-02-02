@@ -3,7 +3,6 @@
 // Add the Slug column to the exporter and the exporter column menu.
 function add_export_column( $columns ) {
 	$columns['slug'] = 'Slug';
-    $columns[]
 
 	return $columns;
 }
